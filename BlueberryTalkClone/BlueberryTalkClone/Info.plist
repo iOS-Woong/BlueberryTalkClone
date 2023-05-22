@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>해당 기능을 위해 블루투스 연결 권한이 필요합니다! for Peripheral</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>해당 기능을 위해 블루투스 연결 권한이 필요합니다! for Central</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
