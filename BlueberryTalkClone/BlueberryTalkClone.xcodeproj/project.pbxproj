@@ -13,7 +13,9 @@
 		D2A793982A1BD34D00307046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A793962A1BD34D00307046 /* Main.storyboard */; };
 		D2A7939A2A1BD34F00307046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A793992A1BD34F00307046 /* Assets.xcassets */; };
 		D2A7939D2A1BD34F00307046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7939B2A1BD34F00307046 /* LaunchScreen.storyboard */; };
-		D2A793A52A1BD8A900307046 /* BluberryTalkSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A793A42A1BD8A900307046 /* BluberryTalkSpec.swift */; };
+		D2A793A52A1BD8A900307046 /* BlueberryTalkSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A793A42A1BD8A900307046 /* BlueberryTalkSpec.swift */; };
+		D2A793A72A1C86AD00307046 /* BlueberryChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A793A62A1C86AD00307046 /* BlueberryChatService.swift */; };
+		D2A793A92A1C96BB00307046 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A793A82A1C96BB00307046 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		D2A793992A1BD34F00307046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A7939C2A1BD34F00307046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A7939E2A1BD34F00307046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2A793A42A1BD8A900307046 /* BluberryTalkSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluberryTalkSpec.swift; sourceTree = "<group>"; };
+		D2A793A42A1BD8A900307046 /* BlueberryTalkSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueberryTalkSpec.swift; sourceTree = "<group>"; };
+		D2A793A62A1C86AD00307046 /* BlueberryChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueberryChatService.swift; sourceTree = "<group>"; };
+		D2A793A82A1C96BB00307046 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				D2A793992A1BD34F00307046 /* Assets.xcassets */,
 				D2A7939B2A1BD34F00307046 /* LaunchScreen.storyboard */,
 				D2A7939E2A1BD34F00307046 /* Info.plist */,
-				D2A793A42A1BD8A900307046 /* BluberryTalkSpec.swift */,
+				D2A793A42A1BD8A900307046 /* BlueberryTalkSpec.swift */,
+				D2A793A62A1C86AD00307046 /* BlueberryChatService.swift */,
+				D2A793A82A1C96BB00307046 /* UserInfo.swift */,
 			);
 			path = BlueberryTalkClone;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A793952A1BD34D00307046 /* ViewController.swift in Sources */,
+				D2A793A72A1C86AD00307046 /* BlueberryChatService.swift in Sources */,
 				D2A793912A1BD34D00307046 /* AppDelegate.swift in Sources */,
 				D2A793932A1BD34D00307046 /* SceneDelegate.swift in Sources */,
-				D2A793A52A1BD8A900307046 /* BluberryTalkSpec.swift in Sources */,
+				D2A793A92A1C96BB00307046 /* UserInfo.swift in Sources */,
+				D2A793A52A1BD8A900307046 /* BlueberryTalkSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
